@@ -1,4 +1,4 @@
-from app import db
+from project.app import db, app
 
 
 class Post(db.Model):
@@ -12,3 +12,10 @@ class Post(db.Model):
 
     def __repr__(self):
         return f'<title {self.title}>'
+    
+with app.app_context():
+    # create the database and the db table
+    db.create_all()
+
+    # commit the changes
+    db.session.commit()
