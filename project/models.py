@@ -11,8 +11,9 @@ class Post(db.Model):
         self.text = text
 
     def __repr__(self):
-        return f'<title {self.title}>'
-    
+        return f"<title {self.title}>"
+
+
 with app.app_context():
     # create the database and the db table
     db.create_all()
