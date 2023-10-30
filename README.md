@@ -2,7 +2,7 @@
 
 Worked on test_delete_event function
 
-https://github.com/ECE444-2023Fall/project-1-web-application-design-group20-commitcartel/blob/1b8df7576db5b5b45fac171f33eb2789c3bce980/tests/app_test.py#L29-L32
+https://github.com/ECE444-2023Fall/project-1-web-application-design-group20-commitcartel/blob/45a9c7ab05396edca6d728b1320b0d4df8a2c079/tests/app_test.py#L30-L42
 
 # Pros and Cons of TDD:
 
